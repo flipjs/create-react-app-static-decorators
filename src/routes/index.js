@@ -296,6 +296,10 @@ function init (route) {
           vulnerabilities,
           summaries
         )
+
+      default:
+        break
+
     }
   }
 }

@@ -2,10 +2,11 @@ import React, { PropTypes } from 'react'
 import { Router } from 'react-router'
 import { Provider } from 'mobx-react'
 import * as stores from '../stores'
+import config from '../config'
 import Notification from '../components/layouts/Notification'
 
 let DevTools
-if (__DEBUG__) {
+if (config.mobxDebug) {
   DevTools = require('mobx-react-devtools').default
 }
 

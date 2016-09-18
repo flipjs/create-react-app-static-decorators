@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom'
 import createBrowserHistory from 'history/lib/createBrowserHistory'
 import { useRouterHistory } from 'react-router'
 import { useStrict } from 'mobx'
+import config from './config'
 import makeRoutes from './routes'
 import Root from './components/Root'
 import { authSession } from './stores'
 import { ROLES } from './constants'
 
-if (__DEBUG__) {
+if (config.mobxDebug) {
   require('./debug')
 }
 
