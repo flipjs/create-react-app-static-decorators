@@ -1,0 +1,27 @@
+/* TEAM */
+  Systems Architect: Adam Bradbury
+  Contact: adam.bradbury [at] zepko.com
+  Twitter: @AdamTheAnalyst
+  Github: https://github.com/AdamTheAnalyst
+  From: Birmingham, UK
+
+  Front-end Developer: Felipe Apostol
+  Contact: felipe.apostol [at] zepko.com
+  Twitter: @flipjsio
+  Github: https://github.com/flipjs
+  From: Birmingham, UK
+
+  Back-end Developer: Ben Webster
+  Contact: benjamin.webster [at] zepko.com
+  Twitter: @flipjsio
+  Github: https://github.com/Vodkappa
+  From: Birmingham, UK
+
+/* SITE */
+  URL: www.zepko.com
+  Last update: 2016-05-06
+  Standards: HTML5, CSS3, JavaScript/ES2015
+  Front-end: React, MobX, Twitter Bootstrap, Sass, CSS Modules, Webpack, Babel
+  Back-end: Python, Flask, MySQL
+  IDE: Terminal + Tmux + Vim
+

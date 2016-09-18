@@ -1,0 +1,30 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : [
+    "standard",
+    "standard-react"
+  ],
+  "env"     : {
+    "browser" : true
+  },
+  "globals" : {
+    "$"       : false,
+    "__API_URL__"  : false,
+    "__DEBUG__"    : false,
+    "__BASENAME__" : false
+  },
+  {
+    "plugins": [
+      "babel"
+    ]
+  },
+  "rules": {
+    "generator-star-spacing" : 0,
+    "camelcase": 0,
+    "max-len": [2, 120, 2],
+    "semi" : [2, "never"],
+    "react/prop-types": [2, {}],
+    "react/self-closing-comp": 0
+  }
+}
+

@@ -1,0 +1,50 @@
+.react-bs-table,
+.react-bs-container .react-bs-table-container {
+  border: none !important;
+}
+
+// .table td {
+//   border: none !important;
+// }
+
+.table-footer-pagination .dropdown-menu {
+  min-width: 50px;
+}
+
+.tbl-col-normal {
+  cursor: default;
+}
+
+.tbl-col-info {
+  cursor: help;
+}
+
+.tbl-col-search {
+  cursor: zoom-in;
+}
+
+.tbl-col-copy {
+  cursor: copy;
+}
+
+.tbl-col-link {
+  cursor: pointer;
+}
+
+.tbl-col-normal:hover,
+.tbl-col-info:hover,
+.tbl-col-search:hover,
+.tbl-col-copy:hover,
+.tbl-col-link:hover {
+  background-color: #eee;
+}
+
+// .react-bs-table tbody > tr:nth-child(2n+1) > td,
+// .react-bs-table .table-striped > tbody > tr:nth-child(2n+1) > th {
+//    background-color: #fbfbfb;
+// }
+//
+// .react-bs-table .table-hover tbody tr:hover td,
+// .react-bs-table .table-hover tbody tr:hover th {
+//   background-color: #f7f7f7;
+// }

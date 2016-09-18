@@ -1,0 +1,44 @@
+{
+  "name": "newzgtin",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "6.1.2",
+    "babel-preset-stage-1": "6.13.0",
+    "eslint": "3.5.0",
+    "eslint-config-standard": "6.0.1",
+    "eslint-config-standard-react": "4.0.2",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-react": "6.2.2",
+    "eslint-plugin-standard": "2.0.0",
+    "eslint-watch": "2.1.14",
+    "mobx-react-devtools": "4.2.6",
+    "musefind-react-scripts": "0.1.6",
+    "react-test-renderer": "^15.3.0"
+  },
+  "dependencies": {
+    "aphrodite": "^0.3.3",
+    "axios": "^0.11.0",
+    "history": "^2.0.0",
+    "moment": "^2.13.0",
+    "react-bootstrap": "^0.29.5",
+    "react-bootstrap-table": "^2.3.6",
+    "react-notification-system": "^0.2.7",
+    "react-router": "^2.0.0",
+    "mobx": "2.5.1",
+    "mobx-react": "3.5.6",
+    "react": "15.3.1",
+    "react-dom": "15.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint .",
+    "lint:dev": "esw --color -w .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/musefind-react-scripts/config/eslint.js"
+  }
+}
